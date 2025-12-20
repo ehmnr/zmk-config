@@ -47,6 +47,57 @@ RC(4,0)   RC(4,1)   RC(4,2)                      RC(4,5)                       R
         wakeup-source;
 
         diode-direction = "col2row";
+        /* gpios de la nice nanoV2
+        gpio0 6
+        gpio0 8
+        gpio0 17
+        gpio0 20
+        gpio0 22
+        gpio0 24
+        gpio1 0
+        gpio0 11
+        gpio1 4
+        gpio1 6
+        gpio0 31
+        gpio0 29
+        gpio0 2
+        gpio1 15
+        gpio1 13
+        gpio1 11
+        gpio0 10
+        gpio0 9
+        gpio1 1
+        gpio1 2
+        gpio1 7
+        */
+
+        row-gpios
+            = <&gpio0 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio0 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio0 17 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio0 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio0 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio0 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio0 24 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio1 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio1 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio1 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            ;
+        col-gpios
+            = <&gpio0 31 GPIO_ACTIVE_HIGH>
+            , <&gpio0 29 GPIO_ACTIVE_HIGH>
+            , <&gpio0 2 GPIO_ACTIVE_HIGH>
+            , <&gpio1 15 GPIO_ACTIVE_HIGH>
+            , <&gpio1 13 GPIO_ACTIVE_HIGH>
+            , <&gpio1 11 GPIO_ACTIVE_HIGH>
+            , <&gpio0 10 GPIO_ACTIVE_HIGH>
+            , <&gpio0 9 GPIO_ACTIVE_HIGH>
+            , <&gpio1 1 GPIO_ACTIVE_HIGH>
+            , <&gpio1 2 GPIO_ACTIVE_HIGH>
+            , <&gpio1 7 GPIO_ACTIVE_HIGH>
+            ;
+        /*gpios de la originales de nice60
         row-gpios
             = <&gpio1 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
@@ -70,6 +121,7 @@ RC(4,0)   RC(4,1)   RC(4,2)                      RC(4,5)                       R
             , <&gpio1 1  GPIO_ACTIVE_HIGH>
             , <&gpio1 2  GPIO_ACTIVE_HIGH>
             ;
+        */
     };
 
     leds {
