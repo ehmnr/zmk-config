@@ -32,12 +32,12 @@
             >;
 */
             bindings = <
-    &kp ESC          &kp F1 &kp F2 &kp F3 &kp F4   &kp F5 &kp F6 &kp F7 &kp F8    &kp F9 &kp F10 &kp F11 &kp F12            &kp PRINT &kp SLCK &kp PAUSE
+    &gresc          &kp F1 &kp F2 &kp F3 &kp F4   &kp F5 &kp F6 &kp F7 &kp F8    &kp F9 &kp F10 &kp F11 &kp F12            &kp PSCRN &kp SLCK &kp PAUSE
 
-    &kp GRV  &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp QUOT &kp EXLM &kp CEDL &kp BSLH      &kp INS   &kp HOME &kp PGUP     &kp KPDOT &kp KPDIV &kp KPMUL &kp KPMINUS
+    &kp GRV  &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp QUOT &kp EXCL &kp CEDL &kp BSLH      &kp INS   &kp HOME &kp PGUP     &kp KPDOT &kp KPDIV &kp KPMUL &kp KPMINUS
     &kp TAB    &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp GRV &kp PLUS                       &kp DEL   &kp END  &kp PGDN     &kp KP7   &kp KP8   &kp KP9   &kp KPPLUS
-    &kp CAPS     &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K &kp L  &kp NTLDE &kp ACUT &kp CEDA     &kp RET                                      &kp KP4   &kp KP5   &kp KP6
-    &kp LSHIFT &kp BSLH &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT   &kp MINUS      &kp RSHIFT                       &kp UP                &kp KP1   &kp KP2   &kp KP3   &kp KPENT
+    &kp CLCK     &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K &kp L  &kp NTLDE &kp ACUT &kp CEDL     &kp RET                                      &kp KP4   &kp KP5   &kp KP6
+    &kp LSHFT &kp BSLH &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT   &kp MINUS      &kp RSHFT                         &kp UP                &kp KP1   &kp KP2   &kp KP3   &kp KPENT
     &kp LCTRL  &kp LGUI  &kp LALT                      &kp SPACE                      &kp RALT  &kp RGUI  &kp RCTRL         &kp LEFT  &kp DOWN &kp RIGHT          &kp KP0       &kp KPDOT
             >;
         };
