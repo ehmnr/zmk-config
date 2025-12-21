@@ -30,7 +30,7 @@
     RC(4,0)  RC(9,0) RC(4,1) RC(10,1) RC(4,2) RC(9,2) RC(2,3) RC(7,3)  RC(2,4) RC(7,4) RC(1,5) RC(6,5)         RC(7,6)                 RC(5,7)          RC(3,8) RC(8,8) RC(1,9) RC(5,9)
     RC(5,0)   RC(10,0) RC(5,1)                              RC(8,3)                            RC(7,5)   RC(1,6)   RC(8,6)     RC(1,7) RC(6,7) RC(10,7)     RC(4,8)      RC(2,9)
             >;
-*/
+
             bindings = <
     &kp ESC         &kp F1 &kp F2 &kp F3 &kp F4      &kp F5 &kp F6 &kp F7 &kp F8     &kp F9 &kp F10 &kp F11 &kp F12      &kp PSCRN &kp SLCK &kp PAUSE_BREAK
 
@@ -40,6 +40,18 @@
     &kp LSHFT &kp BSLH &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT   &kp MINUS      &kp RSHFT                         &kp UP                 &kp KP_N1   &kp KP_N2      &kp KP_N3        &kp KP_ENTER
     &kp LCTRL  &kp LGUI  &kp LALT                      &kp SPACE                      &kp RALT  &kp RGUI  &kp RCTRL         &kp LEFT  &kp DOWN &kp RIGHT           &kp KP_N0            &kp KP_DOT
             >;
+*/
+
+            bindings = <
+    &kp A          &kp A &kp A &kp A &kp A       &kp A &kp A &kp A &kp A       &kp A &kp A &kp A &kp A      &kp A &kp A &kp A
+
+    &kp A  &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A      &kp A   &kp A &kp A     &kp A &kp A &kp A &kp A
+    &kp A    &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A &kp A &kp A                       &kp A   &kp A  &kp A     &kp A   &kp A   &kp A   &kp A
+    &kp A     &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A &kp A  &kp A &kp A &kp A     &kp A                                      &kp A   &kp A   &kp A
+    &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A   &kp A      &kp A                         &kp A                &kp A   &kp A   &kp A   &kp A
+    &kp A  &kp A  &kp A                      &kp A                      &kp A  &kp A  &kp A         &kp A  &kp A &kp A          &kp A       &kp A
+            >;
+
         };
     };
 };
