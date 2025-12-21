@@ -87,31 +87,31 @@ RC(5,0)   RC(10,0) RC(5,1)                              RC(8,3)                 
         */
 
         row-gpios
-            = <&gpio0 6  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* fila 0 */
-            , <&gpio0 8  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* fila 1 */
-            , <&gpio0 17 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* fila 2 */
-            , <&gpio0 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* fila 3 */
-            , <&gpio0 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* fila 4 */
-            , <&gpio0 24 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* fila 5 */
-            , <&gpio1 0  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* fila 6 */
-            , <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* fila 7 */
-            , <&gpio1 4  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* fila 8 */
-            , <&gpio1 6  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  /* fila 9 */
+            = <&gpio0 6  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio0 8  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio0 17 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio0 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio0 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio0 24 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio1 0  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio1 4  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio1 6  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
 
 
         col-gpios
-            = <&gpio0 31 GPIO_ACTIVE_HIGH>  /* columna 0 */
-            , <&gpio0 29 GPIO_ACTIVE_HIGH>  /* columna 1 */
-            , <&gpio0 2  GPIO_ACTIVE_HIGH>  /* columna 2 */
-            , <&gpio1 15 GPIO_ACTIVE_HIGH>  /* columna 3 */
-            , <&gpio1 13 GPIO_ACTIVE_HIGH>  /* columna 4 */
-            , <&gpio1 11 GPIO_ACTIVE_HIGH>  /* columna 5 */
-            , <&gpio0 10 GPIO_ACTIVE_HIGH>  /* columna 6 */
-            , <&gpio0 9  GPIO_ACTIVE_HIGH>  /* columna 7 */
-            , <&gpio1 1  GPIO_ACTIVE_HIGH>  /* columna 8 */
-            , <&gpio1 2  GPIO_ACTIVE_HIGH>  /* columna 9 */
-            , <&gpio1 7  GPIO_ACTIVE_HIGH>  /* columna 10 */
+            = <&gpio0 31 GPIO_ACTIVE_HIGH>
+            , <&gpio0 29 GPIO_ACTIVE_HIGH>
+            , <&gpio0 2  GPIO_ACTIVE_HIGH>
+            , <&gpio1 15 GPIO_ACTIVE_HIGH>
+            , <&gpio1 13 GPIO_ACTIVE_HIGH>
+            , <&gpio1 11 GPIO_ACTIVE_HIGH>
+            , <&gpio0 10 GPIO_ACTIVE_HIGH>
+            , <&gpio0 9  GPIO_ACTIVE_HIGH>
+            , <&gpio1 1  GPIO_ACTIVE_HIGH>
+            , <&gpio1 2  GPIO_ACTIVE_HIGH>
+            , <&gpio1 7  GPIO_ACTIVE_HIGH>
             ;
 
         /*gpios de la originales de nice60
