@@ -57,11 +57,3 @@ RC(5,0)   RC(10,0) RC(5,1)                              RC(8,3)                 
             , <&gpio1 7  GPIO_ACTIVE_HIGH>
             ;
     };
-
-    leds {
-        compatible = "gpio-leds";
-        blue_led: led_0 {
-            gpios = <&gpio0 26 GPIO_ACTIVE_HIGH>;
-        };
-    };
-
