@@ -45,11 +45,11 @@
             bindings = <
     &kp A          &kp A &kp A &kp A &kp A       &kp A &kp A &kp A &kp A       &kp A &kp A &kp A &kp A      &kp A &kp A &kp A
 
-    &kp A  &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A      &kp A   &kp A &kp A     &kp A &kp A &kp A &kp A
-    &kp A    &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A &kp A &kp A                       &kp A   &kp A  &kp A     &kp A   &kp A   &kp A   &kp A
-    &kp A     &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A &kp A  &kp A &kp A &kp A     &kp A                                      &kp A   &kp A   &kp A
-    &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A   &kp A      &kp A                         &kp A                &kp A   &kp A   &kp A   &kp A
-    &kp A  &kp A  &kp A                      &kp A                      &kp A  &kp A  &kp A         &kp A  &kp A &kp A          &kp A       &kp A
+    &kp A  &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A      &kp A   &kp A &kp A     &kp A &kp M &kp V &kp C
+    &kp A    &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A &kp A &kp A                       &kp A   &kp A  &kp B     &kp X   &kp F   &kp J   &kp K
+    &kp A     &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A &kp A  &kp A &kp A &kp A     &kp A                                      &kp Z   &kp G   &kp H
+    &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A &kp A   &kp A      &kp A                         &kp A                &kp N   &kp S   &kp D   &kp L
+    &kp A  &kp A  &kp P                      &kp O                      &kp I  &kp U  &kp Y         &kp T  &kp R &kp E          &kp W       &kp Q
             >;
 
         };
